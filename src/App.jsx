@@ -35,7 +35,7 @@ function App() {
       return;
     }
 
-    axios.post("http://localhost:3000/sendemail", {
+    axios.post("https://bulk-mail-backend-omga.onrender.com/sendemail", {
       subject,
       msg,
       emailList: emails
